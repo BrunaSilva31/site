@@ -1,0 +1,221 @@
+body{
+	background-color:#0D010F;
+	font-family:verdana;
+	font-size:14px;
+	color:#ccc;
+	
+}
+
+
+#bloemen{
+	width:100%;
+	height:193px;
+}
+
+section {
+    width:960px;
+    height: 193px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom:0px;
+	margin-top:0px;
+   
+}
+
+header{
+	 border: 1px solid white;
+     background:rgba(255,255,255, 0.7);  
+	 margin-top:-190px;
+	 height: 150px;
+	 width:960px;
+     background-size:cover;
+     position:absolute;
+     background-repeat:no-repeat;
+}
+
+nav ul li a{
+    float:right;
+    padding:0px 30px;
+    list-style-type:none;
+    color: #837d7d;
+    margin-top:-10px;
+    text-decoration: none; 
+}
+nav ul li {
+    list-style-type:none;
+}
+
+
+
+#hoveniersbedrijf{
+	color:green;
+	margin-bottom:50px;
+	margin-left:85px;
+	
+}
+
+#naam{
+	color:#0D010F;
+	margin-top:50px;
+	margin-left:125px;
+}
+
+#logo {
+    float:left;
+    margin-top: 40px;
+	
+}
+
+#l{
+	width:200px;
+	height:120px;
+	float:left;
+}
+
+#nav{
+	width:760px;
+	height:120px;
+	float:right;
+	
+}
+
+nav{
+	margin-top:90px;
+}
+
+form{
+	width:400px;
+	margin-top:10px;
+	background-color:#222;
+	float:left;
+}
+
+fieldset{
+	margin-bottom:15px;
+	padding:10px;
+}
+
+label {
+	margin-top:9px;
+	margin-bottom:9px;
+	margin-left:0px;
+	margin-right:0px;
+	display:block;	
+}
+
+select, #achternaam,#adres,#nummer,#postcode,#woonplaats,#email,#telefoon,#datum{
+	background-color:black;
+	color:white;
+	border-color:#666;
+    text-align: center;
+	margin: 0px 5px 5px 0px;
+	
+}
+
+
+
+input[type=submit], input[type=checkbox], input[type=radio]{
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-left:0px;
+	margin-right:0px;
+
+}
+
+#nummer,#postcode{
+	width:60px;
+}
+
+#adres,#woonplaats{
+	width:280px;
+}
+
+#email,#telefoon{
+	width:355px;
+}
+
+input[type=submit]{
+	width:100%;
+}
+
+aside{
+	width:350px;
+    line-height:200%;
+    text-align:right;
+    padding:75px 17px 75px 100px;
+    float:right;
+}
+
+
+
+
+div#conjunto {
+    background-color: #0D010F;
+    width:100%;
+    height:80px;
+    float: left;
+	padding-left:190px;
+	
+	
+}
+
+div#conjunto ul li {
+    float: left;
+    margin: 5px 5px 5px 5px;
+    margin-left:30px;
+    list-style: none;
+    text-align:center;
+}
+
+div#footer{
+    width:980px;
+	height:80px;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+
+div#footer ul li a {
+    color:#ccc;
+    text-decoration: none;
+}
+
+small {
+    float:left;
+    margin-left:-200px;
+    margin-top:60px;
+}
+
+#txt-Tuinontwerp{
+	width: 400px;
+}
+
+#foto-tuinontwerp{
+	
+	margin-left:-300px;
+    margin-top: -390px;
+	
+}
+
+
+#txt-Tuinonderhoud{
+	width: 400px;
+}
+
+#foto-Tuinonderhoud{
+	
+	margin-left:-300px;
+    margin-top: -650px;
+	
+}
+
+#txt-Tuinaanleg{
+	width: 400px;
+}
+
+#foto-tuinaanleg{
+   
+	margin-left:-300px;
+    margin-top: -550px;
+}

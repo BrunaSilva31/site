@@ -1,0 +1,194 @@
+<html>
+
+<head>
+	<meta charset="iso-8859-1">
+	<meta name="description" content="Hovenier">
+	<meta name="author" content="Bruna">
+	<link rel="stylesheet" href="formstijl.css">
+</head>
+
+
+<body>
+
+	<div id="bloemen">
+		<img src="images/bloemen.jpg">
+	</div>
+
+	<section>
+
+
+		<header>
+			<div id="l">
+				<img src="images/logo.png" alt="logo" id="logo">
+
+
+				<h1 id="naam">
+				Bruna
+				</h1>
+				<h1 id="hoveniersbedrijf">
+				Hoveniersbedrijf
+				</h1>
+
+			</div>
+			<div id="nav">
+				<nav>
+
+				<ul>
+				<li>
+				<a href="index.html">Home</a>
+				</li>
+				<li>
+				<a href="Tuinontwerp.html">Tuinontwerp</a>
+				</li>
+				<li>
+				<a href="Tuinaanleg.html">Tuinaanleg</a>
+				</li>
+				<li>
+				<a href="Tuinonderhoud.html">Tuinonderhoud</a>
+				</li>
+				<li>
+				<a href="contact.html">Contact</a>
+				</li>
+				</ul>
+
+				</nav>
+			</div>
+		</header>
+
+
+		<h1 id="contact">
+		CONTACT
+		</h1>
+		<p id="p">
+		Heeft u tuinadvies nodig of wilt u een gratis offerte aanvragen? Wilt
+		u gebruik maken van mijn diensten als hovenier? U kunt contact
+		<br>
+		opnemen door onderstaand contactformulier in te vullen, bellen kan natuurlijk
+		ook.
+		</p>
+
+		<form action="../cgi-bin/formmail.pl" method="get">
+			<fieldset>
+					<legend>
+					U gegevens
+					</legend>
+					<label for="naam">
+					Naam:
+					</label>
+					<select required name="geslacht" id="geslacht">
+					<option value="Mevrouw">
+					Mevrouw
+					</option>
+					<option value="heer">
+					De heer
+					</option>
+					</select>
+					<input required type="text" name="Achternaam" id="achternaam" placeholder="achternaam">
+
+					<label for="Adres">
+					Adres:
+					</label>
+
+
+					<input required type="text" name="Adres" id="adres" placeholder="straatnaam">
+					<input required type="text" name="Nummer" id="nummer" placeholder="nummer">
+					<input required type="text" name="Postocode" id="postcode" placeholder="Postocode">
+					<input required type="text" name="Woonplaats" id="woonplaats" placeholder="woonplaats"
+					list="steden">
+					<datalist id="steden">
+					<option value="Almere">
+					<option value="Amstelveen">
+					<option value="Amsterdam">
+					<option value="Den Haag">
+					<option value="Hilversum">
+					<option value="Leeuwarden">
+					<option value="Maastricht">
+					<option value="Naarden">
+					<option value="Utrecht">
+					</datalist>
+
+					<label for="email">
+					E-mail:
+					</label>
+
+					<input required type="email" name="email" id="email" placeholder="E-mail">
+
+					<label for="telefoon">
+					Telefoon:
+					</label>
+					<input required type="text" name="telefoon" id="telefoon" placeholder="telefoon">
+			</fieldset>
+			<fieldset>
+					<legend>
+					Werkzaamheden
+					</legend>
+					<input type="checkbox" name="werkzaamheden" id="tuinontwerp" value="tuinontwerp">
+					Tuinontwerp
+					<input type="checkbox" name="werkzaamheden" id="tuinaanleg" value="tuinaanleg">
+					Tuinaanleg
+					<input type="checkbox" name="werkzaamheden" id="tuinonderhoud" value="tuinonderhoud">
+					Tuinonderhoud
+					<label for="datum">
+					Gewenste datum:
+					</label>
+					<input required type="date" name="datum" id="datum" placeholder="dd-mm-jjj">
+					<label for="wenst" id=>
+					Wenst u een onderhoudscontract?
+					</label>
+					<input type="radio" name="onderhoudscontract" id="ja" value="ja" />
+					Ja
+					<input type="radio" name="onderhoudscontract" id="nee" value="nee" />
+					Nee
+			</fieldset>
+			<input type="submit" name="submit" id="submit" value="verzenden" />
+		</form>
+
+
+		<aside>
+			<img src="images/foto.jpg" width="130px">
+			<p>
+			Bruna Da Silva
+			<br>
+			<br>
+			1186 JS Amstelveen
+			<br>
+			<br>
+			Tel.: 06-15621702
+			<br>
+			<br>
+			KvK-nr.: 99999999
+			<br>
+			<br>
+			BRW-nr.: NL56456454564
+			<br>
+			<br>
+			info@bruna.nl
+			</p>
+		</aside>
+
+		<div id="conjunto">
+			<div id="footer">
+				<small>&copy; Hovenier van Bruna</small><br><br>
+				
+				<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li>|</li>
+				<li><a href="Tuinontwerp.html">Tuinontwerp</a></li>
+				<li>|</li>
+				<li><a href="Tuinaanleg.html">Tuinaanleg</a></li>
+				<li>|</li>
+				<li><a href="Tuinonderhoud.html">Tuinonderhoud</a></li>
+				<li>|</li>
+				<li><a href="contact.html">Contact</a></li>
+
+				</ul>
+				
+			</div>
+		</div>
+
+
+
+	</section>
+</body>
+
+</html>
